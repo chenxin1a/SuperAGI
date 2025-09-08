@@ -1,6 +1,6 @@
 import os
 
-from llama_index.indices.response import ResponseMode
+from llama_index.response_synthesizers import ResponseMode
 from llama_index.schema import Document
 
 from superagi.config.config import get_config
